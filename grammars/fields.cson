@@ -2,7 +2,7 @@
 'patterns': [
 
   {
-       'match': '(I/O ADDRESS)\\s*::\\s*((?:PLC\\d+:)?\\d+:?\\d*)+'
+       'match': '(I/O ADDRESS)\\s*::\\s*((?:PLC\\d+:)?\\d+:?\\d*)'
        'captures':
          '1':
              'name': 'variable.assignment.gdb'

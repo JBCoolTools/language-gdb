@@ -20,7 +20,7 @@
       }
 
       {
-        'begin': 'NEXT\\sBLOCK'
+        'begin': 'NEXT\\sBLO?C?K'
         'end': 'A_SA3'
         'name': 'tag.fields.gdb'
         'patterns': [{'include': 'fields.gdb'}]
