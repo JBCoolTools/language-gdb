@@ -5,7 +5,9 @@
   "repository": "https://github.com/TheMisfit68/language-gdb.git",
   "license": "MIT",
   "keywords": [
-    "language"
+    "language",
+    "gdb",
+    "fix32"
   ],
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
