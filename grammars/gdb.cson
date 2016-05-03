@@ -1,0 +1,34 @@
+'name': 'GDB'
+'fileTypes': ['gdb']
+
+'scopeName': 'source.gdb'
+'patterns': [
+
+    #Comments
+    #Blocks
+    {
+        'match': '!.*$'
+        'name': 'comment.line.character.gdb'
+    }
+
+    #Tag
+
+      {
+        'begin': 'Type'
+        'end': 'A_TAG'
+        'name': 'tag.header.gdb'
+      }
+
+      {
+        'begin': 'NEXT\\sBLOCK'
+        'end': 'A_SA3'
+        'name': 'tag.fields.gdb'
+        'patterns': [{'include': 'fields.gdb'}]
+      }
+
+
+
+
+
+
+]

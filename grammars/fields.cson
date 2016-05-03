@@ -1,0 +1,13 @@
+'scopeName': 'fields.gdb'
+'patterns': [
+
+  {
+       'match': '(I/O ADDRESS)\\s*::\\s*(\\d*:?\\d*)'
+       'captures':
+         '1':
+             'name': 'variable.assignment.gdb'
+         '2':
+             'name': 'variable.address.gdb'
+  }
+
+]
