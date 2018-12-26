@@ -2,7 +2,7 @@
   "name": "language-gdb",
   "version": "0.3.6",
   "description": "GDB language support in Atom",
-  "repository": "https://github.com/TheMisfit68/language-gdb.git",
+  "repository": "https://github.com/JBCoolTools/language-gdb",
   "license": "MIT",
   "keywords": [
     "language",
