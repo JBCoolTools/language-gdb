@@ -1,6 +1,6 @@
 {
   "name": "language-gdb",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "GDB language support in Atom",
   "repository": "https://github.com/JBCoolTools/language-gdb",
   "license": "MIT",
